@@ -1,0 +1,9 @@
+const results = document.getElementById("results");
+
+results.innerHTML = `
+  <li>${45 + 18}</li>
+  <li>${30 - 12}</li>
+  <li>${15 * 6}</li>
+  <li>${30 / 3}</li>
+  <li>${45 % 8}</li>
+`;
